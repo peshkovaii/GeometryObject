@@ -1,3 +1,5 @@
+package geometry;
+
 public class Line extends GeometryObject {
     private Point start;
     private Point end;
@@ -15,6 +17,9 @@ public class Line extends GeometryObject {
         return end;
     }
 
+    public double length() {
+        return start.distanceTo(end);
+    }
 
     @Override
     public double area() {
