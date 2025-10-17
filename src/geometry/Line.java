@@ -1,6 +1,6 @@
 package geometry;
 
-public class Line extends GeometryObject {
+public class Line implements GeometryObject {
     private Point start;
     private Point end;
 

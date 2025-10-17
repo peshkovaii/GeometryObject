@@ -1,3 +1,5 @@
+package geometry;
+
 public class GeometryUtils {
 
     //векторное произведение - cross product

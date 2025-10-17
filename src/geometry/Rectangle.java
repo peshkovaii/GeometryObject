@@ -1,4 +1,6 @@
-public class Rectangle extends GeometryObject {
+package geometry;
+
+public class Rectangle implements GeometryObject {
     private Point topLeft;
     private double width, height;
 
